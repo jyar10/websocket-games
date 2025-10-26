@@ -1,0 +1,74 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html,
+body {
+  overflow-x: hidden;
+  color-scheme: light !important;
+}
+
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 2.5rem;
+}
+
+.area-title {
+  text-shadow: 1px 5px 4px grey;
+}
+
+#svg {
+  max-width: 600px;
+  overflow: visible;
+  position: absolute;
+  right: 0px;
+}
+
+.ball {
+  fill: blue;
+  visibility: hidden;
+}
+
+body {
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  font-size: 1.3rem;
+}
+
+.list-disc > li {
+  font-size: 1.1rem;
+}
+
+.text-body {
+  font-size: 1.3rem;
+}
+
+.certification-body {
+  margin-bottom: 420px;
+}
+
+.gallery-border {
+  border: none;
+  height: 220px !important;
+  width: 220px !important;
+}
+
+.gallery-item {
+  height: 220px !important;
+  width: 220px !important;
+}
